@@ -1,4 +1,4 @@
-import dash
+"""import dash
 from dash import dcc, html, dash_table
 from dash.dependencies import Input, Output, State
 import pandas as pd
@@ -36,7 +36,7 @@ def render_header():
                         style={'color': '#666666', 'fontSize': '13px', 'margin': '5px 0 0 0'})
             ]),
             html.Div(
-                html.Span("VIP LICENSE ACTIVE", 
+                html.Span("DATA ANALYTICS", 
                           style={'color': '#00ffcc', 'fontSize': '11px', 'border': '1px solid #00ffcc', 'padding': '5px 12px', 'borderRadius': '4px', 'fontWeight': 'bold', 'letterSpacing': '1px'})
             )
         ]
@@ -255,4 +255,4 @@ def execution_analytics_pipeline(contents, filtered_segments, filename):
     return kpi_metric_cards, trend_plot, matrix_plot, ledger_grid_layout
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8050)
+    app.run(debug=True, port=8050)"""
